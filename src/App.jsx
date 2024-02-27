@@ -5,6 +5,8 @@ import './App.css'
 import RowPost from './Components/RowPost/RowPost';
 import { action, originals, romance} from './urls';
 
+
+
 function App(props) {
   return (
     <div>
@@ -13,7 +15,6 @@ function App(props) {
       <RowPost url = {originals} title = 'Netflix originals'/>
       <RowPost url = {action} title = 'Actions' isSmall/>
       <RowPost url = {romance} title = 'Romance' isSmall/>
-    
     </div>
   );
 }
